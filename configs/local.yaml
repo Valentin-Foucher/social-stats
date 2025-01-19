@@ -1,0 +1,11 @@
+server:
+  baseUrl: social-stats.onrender.com
+  port: 80
+
+strava:
+  public: ---ENV STRAVA_PUBLIC
+  secret: ---ENV STRAVA_SECRET
+  baseUrl: https://www.strava.com/api/v3
+
+http:
+  maxRetries: 3
